@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>theTitle</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    
+    <script src="~/lib/jquery/jquery.js"></script>
+    
+    <script type="text/javascript">
+        function LoadData(spotId = null) {
+            var spotContainer = $("#spotContainer");
+            $.ajax({
+                url: "/Tourist/AddNewSpots/" + spotId ?? "",
+                type: "GET",
+                success: function (data) {
+                    spotContainer.append(data);
+                }
+            });
+        }
+        $(document).on("click", "#btnPlus", function (e) {
+            e.preventDefault();
+            LoadData();
+        });
+        $(document).on("click", "#btnDeleteSpot", function (e) {
+            e.preventDefault();
+            $(this).parent().parent().remove();
+        });
+
+
+    </script>
+    <style>
+        body {
+            font-family: 'Century Gothic';
+            font-size: .90em;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success" style="font-weight:bold;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="~/images/logo.jpeg" width="42" style="border-radius:50%" /></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        @Html.ActionLink("Home", "Index", new { }, new { @class = "nav-link" })
+                    </li>
+                    <li class="nav-item">
+                        @Html.ActionLink("Spot", "Index", "Spots", new { }, new { @class = "nav-link" })
+                    </li>
+                    <li class="nav-item">
+                        @Html.ActionLink("Tourist", "Index", "Tourist", new { }, new { @class = "nav-link" })
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+    <footer class="container-fluid">
+        <p class="text-center">&copy; @DateTime.Now.Year - Jahidul Hasan</p>
+    </footer>
+     
+    <script src="~/lib/ajax/dist/jquery.unobtrusive-ajax.js"></script>
+
+   
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    @RenderSection("styles", required: false)
+    @RenderSection("scripts", required: false)   
+</body>
+</html>

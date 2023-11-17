@@ -1,0 +1,81 @@
+﻿@model Tourist_management_System.Models.ViewModels.TouristVM
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col">  
+        <form asp-action="Delete" asp-controller="Tourist"enctype="multipart/form-data" method="post">
+            <div class="row">
+                <div class="col-6">
+                    <input asp-for="TouristId" type="hidden"/>
+                    <div class="row mb-2">
+                        <label asp-for="TouristName" class="col-form-label col-3"></label>
+                        <div class="col-6">
+                            <input asp-for="TouristName" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-3">
+                            <span asp-validation-for="TouristName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="BirthDate" class="col-form-label col-3"></label>
+                        <div class="col-6">
+                            <input asp-for="BirthDate" class="form-control form-control-sm" type="date" />
+                        </div>
+                        <div class="col-3">
+                            <span asp-validation-for="BirthDate" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="Age" class="col-form-label col-3"></label>
+                        <div class="col-6">
+                            <input asp-for="Age" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-3">
+                            <span asp-validation-for="Age" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="PictureFile" class="col-form-label col-3"></label>
+                        <div class="col-6">
+                            <input asp-for="PictureFile" class="form-control form-control-sm" type="file" />
+                            <img class="rounded-circle" src="@Model.Picture" width="32">
+                        </div>
+                        <div class="col-3">
+                            <span asp-validation-for="PictureFile" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="MaritalStatus" class="col-form-label col-3"></label>
+                        <div class="col-6 mt-2">
+                            <label class="form-check-label">
+                                <input class="form-check-input" asp-for="MaritalStatus" />
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h5>Select Skill</h5>
+                    <div class="d-flex justify-content-end">
+                        <a id="btnPlus" class="btn btn-success"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div id="spotContainer">
+                        @foreach (var item in Model.SpotList)
+                        {
+                            <script>
+                                LoadData(@item)
+                            </script>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="d-flex justify-content-end">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
