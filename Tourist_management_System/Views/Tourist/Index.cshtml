@@ -5,9 +5,9 @@
 
 <div class="row">
     <div class="col">
-        <h2 class="display-4">Tourist List</h2>
+        <h2 class="display-4 text-center table-primary">Tourist Information</h2>
         <div class="d-flex justify-content-end">
-            <a asp-action="Create" asp-controller="Tourist" class="btn btn-outline-primary btn-sm mb-2"><i class="fa fa-plus-square"></i> Add New Tourist</a>
+            <a asp-action="Create" asp-controller="Tourist" class="btn btn-primary btn-sm mb-2"><i class="fa fa-plus-square"></i> Add New Tourist</a>
         </div>
         @foreach (var item in Model)
         {

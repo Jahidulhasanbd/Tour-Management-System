@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HIFauqkPzdHhE7o8XuEYQA/GkdqvQ1wK9KUCBipy+NIdilNDvkcYq2nNeYv8IIiKNhOpypm5styKgGn6GFU+iQ==",
+  "dgSpecHash": "n/RN4ruBxH58GBrtsO/ckAFugTmclutELnQ19vdZUkg57eSzJQNtwE72kyI+zo5XAuzLO17vyUATJLDlX/OOsA==",
   "success": true,
-  "projectFilePath": "H:\\.NET Core\\all class prctc\\Tourist_management_System\\Tourist_management_System\\Tourist_management_System.csproj",
+  "projectFilePath": "H:\\Isdb project\\Tourist_management_System\\Tourist_management_System\\Tourist_management_System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hrido\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\hrido\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

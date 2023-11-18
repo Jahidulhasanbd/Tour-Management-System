@@ -5,31 +5,38 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
-
-<h4>Spot</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="SpotId" />
-            <div class="form-group">
-                <label asp-for="SpotName" class="control-label"></label>
-                <input asp-for="SpotName" class="form-control" />
-                <span asp-validation-for="SpotName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+<div class="card m-2">
+    <h1 class="ms-4">Edit Spot</h1>
+    <div class="row ms-2">
+        <div class="col-6">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="SpotId" />
+                <div class="row">
+                    <label asp-for="SpotName" class="col-from-label col-3"></label>
+                    <div class="col-6">
+                        <input asp-for="SpotName" class="form-control form-control-sm" />
+                    </div>
+                    <div class="col-3">
+                        <span asp-validation-for="SpotName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <a asp-action="Index" class="text-decoration-none btn btn-outline-warning m-2">Back to List</a>
+                    <input type="submit" value="Save" class="btn btn-primary m-2" />                   
+                </div>
+            </form>
+        </div>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+    <div>
+        
+    </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+
+</div>

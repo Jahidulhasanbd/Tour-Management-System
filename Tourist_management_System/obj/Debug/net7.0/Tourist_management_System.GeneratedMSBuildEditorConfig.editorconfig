@@ -9,77 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tourist_management_System
 build_property.RootNamespace = Tourist_management_System
-build_property.ProjectDir = H:\.NET Core\all class prctc\Tourist_management_System\Tourist_management_System\
+build_property.ProjectDir = H:\Isdb project\Tourist_management_System\Tourist_management_System\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = H:\.NET Core\all class prctc\Tourist_management_System\Tourist_management_System
+build_property.MSBuildProjectDirectory = H:\Isdb project\Tourist_management_System\Tourist_management_System
 build_property._RazorSourceGeneratorDebug = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Home/Index.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Home/Privacy.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Shared/Error.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Shared/_ValidationScriptsPartial.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Spots/Create.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Spots/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Spots/Delete.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Spots/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Spots/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdHNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Spots/Edit.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Spots/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Spots/Index.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Spots/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Tourist/Create.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Tourist/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Tourist/Delete.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Tourist/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Tourist/Edit.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Tourist/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Tourist/Index.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Tourist/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Tourist/_addNewSpots.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Tourist/_addNewSpots.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzdFxfYWRkTmV3U3BvdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/_ViewImports.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/_ViewStart.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/.NET Core/all class prctc/Tourist_management_System/Tourist_management_System/Views/Shared/_Layout.cshtml]
+[H:/Isdb project/Tourist_management_System/Tourist_management_System/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5vf2rkj2xx
